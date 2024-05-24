@@ -7,7 +7,7 @@
 
 ## basecrack
 
-建议kali下安装，不报错。
+建议kali下安装  不产生报错
 
 ```shell
 pip3 install -r requirements.txt
@@ -15,3 +15,6 @@ python3 basecrack.py -m text  # 魔术方法后面直接跟编码
 python3 basecrack.py -f filename  # 后面跟要解码的文件
 ```
 
+## 数值md5爆破.py
+
+爆破x以内，md5前x位为xxxxx的数值
